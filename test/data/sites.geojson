@@ -1,0 +1,804 @@
+var siteLocations={
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-ID",
+        "OrganizationFormalName": "USGS Idaho Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-13011000",
+        "MonitoringLocationName": "SNAKE RIVER NR MORAN WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.58583329999999,
+          43.8583333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-ID",
+        "OrganizationFormalName": "USGS Idaho Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-13032500",
+        "MonitoringLocationName": "SNAKE RIVER NR IRWIN ID"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2188889,
+          43.3508333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-13016450",
+        "MonitoringLocationName": "FISH CREEK AT WILSON, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8716,
+          43.5007601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-13018250",
+        "MonitoringLocationName": "Flat Creek above Cache Creek, at Jackson, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.76328059999999,
+          43.4873833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-13018350",
+        "MonitoringLocationName": "FLAT CREEK BELOW CACHE CREEK, NEAR JACKSON, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7970278,
+          43.458361100000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-13025500",
+        "MonitoringLocationName": "CROW CREEK NEAR FAIRVIEW, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0077044,
+          42.6749287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-432211110264402",
+        "MonitoringLocationName": "Granite Hot Spring Swimming Pool Outflow - G2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.4456278,
+          43.369602799999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-432453110465501",
+        "MonitoringLocationName": "Flat Ck at S Park Loop Rd bridge, nr Jackson, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.78197220000001,
+          43.414666700000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-432748110515301",
+        "MonitoringLocationName": "Fish Creek at Crescent H Ranch, nr Wilson, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8647778,
+          43.4633611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-432906110522601",
+        "MonitoringLocationName": "FISH CREEK ABOUT 1 MILE SOUTH OF WILSON, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.87380559999998,
+          43.484944399999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-433117110515101",
+        "MonitoringLocationName": "FISH CREEK ABOUT 1.5 MILES NORTH OF WILSON, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.86405559999999,
+          43.52144439999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-433234110512601",
+        "MonitoringLocationName": "PHILLIPS CANYON AT FISH CREEK RD, NR WILSON, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8579892,
+          43.542705100000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-433247110491701",
+        "MonitoringLocationName": "LAKE CREEK AT STATE HIGHWAY 390, NEAR WILSON, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8221545,
+          43.5463171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-433302110504701",
+        "MonitoringLocationName": "Fish Cr 1/2 mile abv Resor's Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8463889,
+          43.5505556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-433421110474101",
+        "MonitoringLocationName": "SNAKE RIVER AT ROCKING H RANCH NR TETON VILLAGE,WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.79472220000001,
+          43.5725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-433438110495901",
+        "MonitoringLocationName": "FISH CREEK ABOUT 1 MILE SOUTH OF TETON VILLAGE, WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.83308329999998,
+          43.5772778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "USGS-WY",
+        "OrganizationFormalName": "USGS Wyoming Water Science Center",
+        "MonitoringLocationTypeName": "Stream",
+        "MonitoringLocationIdentifier": "USGS-440653110411201",
+        "MonitoringLocationName": "Huckleberry Cr at Huckleberry HS inflow H-4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.68668329999998,
+          44.1146861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "1119USBR_WQX",
+        "OrganizationFormalName": "Bureau of Reclamation",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "1119USBR_WQX-JAC101",
+        "MonitoringLocationName": "SNAKE R BELOW JACKSON LK DAM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.58972220000001,
+          43.8591667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "1119USBR_WQX",
+        "OrganizationFormalName": "Bureau of Reclamation",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "1119USBR_WQX-PAL101",
+        "MonitoringLocationName": "SNAKE RIVER BELOW PALISADES DAM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2152778,
+          43.351388899999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "11NPSWRD_WQX",
+        "OrganizationFormalName": "National Park Service Water Resources Division",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "11NPSWRD_WQX-GRTE_SNR01",
+        "MonitoringLocationName": "Snake River at Old Flagg Ranch 1000' Below Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.67155333,
+          44.101772499999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "11NPSWRD_WQX",
+        "OrganizationFormalName": "National Park Service Water Resources Division",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "11NPSWRD_WQX-GRTE_SNR02",
+        "MonitoringLocationName": "Snake River Below Site of New Visitor's Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.71586,
+          43.652609999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SIDFA038",
+        "MonitoringLocationName": "Barnes Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.34100000000001,
+          43.1344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA022",
+        "MonitoringLocationName": "Tincup Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.25,
+          42.9727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA023",
+        "MonitoringLocationName": "Squaw Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.13600000000001,
+          43.0744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA026",
+        "MonitoringLocationName": "Cow Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.07700000000001,
+          42.793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA027",
+        "MonitoringLocationName": "Jackknife Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.103,
+          43.0495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA043",
+        "MonitoringLocationName": "Tincup Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.279,
+          42.9782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA055",
+        "MonitoringLocationName": "North Fork Stump Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.171,
+          42.8704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA056",
+        "MonitoringLocationName": "Stump Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.139,
+          42.8473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "IDEQ_WQX",
+        "OrganizationFormalName": "Idaho Department Of Environmental Quality DEQ",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "IDEQ_WQX-2011SPOCA059",
+        "MonitoringLocationName": "Haderlie Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.104,
+          43.0084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WATERSHED",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WATERSHED-MRW0162",
+        "MonitoringLocationName": "MRW0162 - Crow creek - State line"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.0440136,
+          42.655696899999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WATERSHED",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WATERSHED-MRW0163",
+        "MonitoringLocationName": "MRW0163 - Crow Creek - Fairview"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.99743829999998,
+          42.6924389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WATERSHED",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WATERSHED-MRW0164",
+        "MonitoringLocationName": "MRW0164 - Spring Creek - State Crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9976831,
+          42.6652989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WATERSHED",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WATERSHED-MRW0189",
+        "MonitoringLocationName": "MRW0189 - Crow Creek Outlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.974125,
+          42.745468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WATERSHED",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WATERSHED-MRW0190",
+        "MonitoringLocationName": "MRW0190 - Salt River  Below Crow Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.97418700000001,
+          42.747946999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WATERSHED",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WATERSHED-MRW0191",
+        "MonitoringLocationName": "MRW0191 - Salt River Above Crow Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.972628,
+          42.745602000000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WATERSHED",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WATERSHED-MRW1",
+        "MonitoringLocationName": "MRW1 - CACHE CREEK - LOWER - USGS STREAM GAGE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.70362779999999,
+          43.4524472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0130",
+        "MonitoringLocationName": "MRW0130 - Pacific Creek    Gravel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.41384440000002,
+          43.951891700000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0149",
+        "MonitoringLocationName": "MRW0149 - Swift Creek   USGS Gage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8994,
+          42.726163899999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0154",
+        "MonitoringLocationName": "MRW0154 - South Fk Fish Ck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.91378119999999,
+          43.4512295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0169",
+        "MonitoringLocationName": "MRW0169 - Corral Creek-Fitzpatrick"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.75451480000001,
+          42.681058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0170",
+        "MonitoringLocationName": "MRW0170 - Snake River-Camp 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6976291,
+          44.086377399999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0171",
+        "MonitoringLocationName": "MRW0171 - South Fork Fish Creek-Road 646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.90932990000002,
+          43.4317419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0172",
+        "MonitoringLocationName": "MRW0172 - South Fork Fish Creek-Union Pass Road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.9592442,
+          43.461564200000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW0174",
+        "MonitoringLocationName": "MRW0174 - Salt River-North Thayne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.01596740000001,
+          42.9344321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW11",
+        "MonitoringLocationName": "MRW11 - LITTLE GRANITE CREEK    Boulder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.52583329999999,
+          43.298888899999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OrganizationIdentifier": "WYDEQ_WQX",
+        "OrganizationFormalName": "State of Wyoming Department of Environmental Quality Watershed Program",
+        "MonitoringLocationTypeName": "River/Stream",
+        "MonitoringLocationIdentifier": "WYDEQ_WQX-MRW25",
+        "MonitoringLocationName": "MRW25 - SALT RIVER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.88194440000001,
+          42.525
+        ]
+      }
+    }
+  ]
+}

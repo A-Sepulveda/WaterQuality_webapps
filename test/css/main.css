@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#controlsPanel{
+  position: absolute;
+  z-index: 20;
+  top:1rem;
+  left:1rem;
+  width: 30rem;
+  height: auto;
+  background-color: white;
+}
+#legend{
+  position: absolute;
+  z-index: 20;
+  bottom:1rem;
+  right:1rem;
+  width: 8rem;
+  height: auto;
+  background-color: white;
+}
+.legendRow{
+  height: 35px;
+  position: relative;
+}
+.legendText{
+  position: absolute;
+  top:6px;
+  left:40px;
+  font-size: 1rem;
+  color: '#7c7c7c';
+  font-weight: bold;
+}
+#map {
+  position: absolute;
+  height: 100%;
+  top:0;
+  left: 0;
+  width: 100%;
+}
+.controlsTitle{
+  background-color: green;
+  font-size: 1.5rem;
+  color:white;
+  height: 3rem !important;
+  padding-top: 0.5rem !important;
+}
+.selectTitle{
+  font-size: 1.25rem;
+  /* font-weight: bold; */
+}
+.leftPad{
+  padding-left: 0.5rem;
+}
+#hoverInfoBox{
+  position: absolute;
+  z-index: 100;
+  background-color: rgb(47, 47, 47);
+  padding: 1rem;
+  display: none;
+  border-radius: 5px;
+  color:white;
+}
+.italic{
+  font-style: italic;
+}
+.hoverTitle{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.hoverSubTitle{
+  font-size: 1rem;
+}
+.hoverBody{
+  font-size: 1rem;
+}
